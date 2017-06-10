@@ -1,0 +1,27 @@
+# brute force
+    Enumerate all possible solutions and check for correctness - good way to start out
+
+#divide and conquer: 
+    try to think if you can split up to subproblems, let's say halve the problem
+    divide the problem to subproblemns
+    conquer the subproblem
+    merge or combine the subproblems
+
+#dynamic programming - memoization
+    try to break up the problem into subproblem and if you meet the subproblem you have not seen before then save it and later if you 
+    encounter the exact problem again then you can use it from the cache
+
+# greedy
+    Try to choose the locally optimal solution in each step which might lead to an optimal solution
+    Keep track of the best answer so far
+
+# use a Hash table !!!
+    Lots of problems can be solved by hash tables - always think of it!!!
+
+# binary search
+    If there is some ordering we can rule out half of the list - O(lgn)
+
+# DFS or BFS
+
+# represent the set as a trie - compression - prefix tree
+    for instance a vocabulary can be stored efficiently in a trie - prefix tree
